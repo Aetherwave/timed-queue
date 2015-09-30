@@ -4,6 +4,10 @@
 
 Get objects only after timeout, sorted by timeout (longest expiration first).
 
+## Install
+
+    npm install @aetherwave/timed-queue
+
 ## Usage
 
     let queue = new TimedQueue();
