@@ -1,5 +1,7 @@
 # Timed Queue
 
+[![Build Status](https://travis-ci.org/Aetherwave/timed-queue.svg)](https://travis-ci.org/Aetherwave/timed-queue) [![Dependency Status](https://david-dm.org/Aetherwave/timed-queue.svg)](https://david-dm.org/Aetherwave/timed-queue)
+
 Get objects only after timeout, sorted by timeout (longest expiration first).
 
 ## Usage
