@@ -30,10 +30,6 @@ Returns length of the queue
 
 ## Test
 
-**Environment**
-
-- `TEST_DB`: MongoDB connection string
-
 **Run tests**
 
     $ npm test
