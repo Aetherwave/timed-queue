@@ -1,0 +1,33 @@
+{
+  "name": "@aetherwave/timed-queue",
+  "version": "0.0.0",
+  "description": "Get objects only after timeout, sorted by timeout (longest expiration first).",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha --report html --dir ./report/coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aetherwave/timed-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "timeout",
+    "timed"
+  ],
+  "author": "Thomas Schorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aetherwave/timed-queue/issues"
+  },
+  "homepage": "https://github.com/Aetherwave/timed-queue#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "istanbul": "^0.3.21",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "sinon": "^1.17.1"
+  }
+}
